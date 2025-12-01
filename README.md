@@ -1,15 +1,16 @@
 PDF Content-Aware Border Cropper
+
 Preserve vector graphics. Remove white margins. Produce clean, publication-ready PDFs.
 
 This repository provides a Python-based utility for automatically cropping white margins from PDF pages without rasterizing them. Unlike many tools that convert each page into a bitmap image (which destroys vector content and reduces quality), this script preserves all vector drawings, text, and embedded images exactly as they are.
 
 The cropping is performed by analyzing the actual content regions on each page:
 
-Text blocks
+    Text blocks
 
-Vector drawings (paths, shapes, curves, strokes)
+    Vector drawings (paths, shapes, curves, strokes)
 
-Embedded raster images
+    Embedded raster images
 
 Optional annotations
 
